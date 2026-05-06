@@ -30,3 +30,7 @@ api:
   security:
     token:
       secret: ${JWT_SECRET:dev-secret}}
+
+jwt:
+  expiration:
+    hours: 24
